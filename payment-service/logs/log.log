@@ -1,0 +1,18 @@
+2025-09-28 21:01:08.891 [http-nio-9093-exec-1]  INFO traceId=68d9940439150d576b9909bdad7d2e80 spanId=6b9909bdad7d2e80 c.h.p.controller.PaymentController - Start of createPayment
+2025-09-28 21:01:08.964 [http-nio-9093-exec-1]  INFO traceId=68d9940439150d576b9909bdad7d2e80 spanId=6b9909bdad7d2e80 c.h.p.controller.PaymentController - End of createPayment
+2025-09-28 21:03:58.512 [http-nio-9093-exec-4]  INFO traceId=68d994aeeba41e7d4469fda8c7403520 spanId=9633c6534edb4df4 c.h.p.controller.PaymentController - Start of getPaymentDetailsByStudentId
+2025-09-28 21:03:58.885 [http-nio-9093-exec-4]  INFO traceId=68d994aeeba41e7d4469fda8c7403520 spanId=9633c6534edb4df4 c.h.p.controller.PaymentController - End of getPaymentDetailsByStudentId
+2025-09-28 21:04:10.251 [http-nio-9093-exec-5]  INFO traceId=68d994baba1bdb7aeb84e947679ad376 spanId=eb665343f69b8359 c.h.p.controller.PaymentController - Start of getPaymentDetailsByStudentId
+2025-09-28 21:04:10.256 [http-nio-9093-exec-5]  INFO traceId=68d994baba1bdb7aeb84e947679ad376 spanId=eb665343f69b8359 c.h.p.controller.PaymentController - End of getPaymentDetailsByStudentId
+2025-09-28 21:20:23.806 [main]  INFO traceId= spanId= c.h.p.PaymentServiceApplicationTests - Starting PaymentServiceApplicationTests using Java 17.0.9 with PID 35444 (started by mail2 in C:\Chandan\Coode-Repository\springboot-microservices -distributed-trace\payment-service)
+2025-09-28 21:20:23.807 [main] DEBUG traceId= spanId= c.h.p.PaymentServiceApplicationTests - Running with Spring Boot v3.1.3, Spring v6.0.11
+2025-09-28 21:20:23.807 [main]  INFO traceId= spanId= c.h.p.PaymentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-09-28 21:20:28.001 [main]  INFO traceId= spanId= c.h.p.PaymentServiceApplicationTests - Started PaymentServiceApplicationTests in 4.919 seconds (process running for 5.983)
+2025-09-28 21:20:35.678 [main]  INFO traceId= spanId= c.h.p.PaymentServiceApplication - Starting PaymentServiceApplication using Java 17.0.9 with PID 37528 (C:\Chandan\Coode-Repository\springboot-microservices -distributed-trace\payment-service\target\classes started by mail2 in C:\Chandan\Coode-Repository\springboot-microservices -distributed-trace\payment-service)
+2025-09-28 21:20:35.679 [main] DEBUG traceId= spanId= c.h.p.PaymentServiceApplication - Running with Spring Boot v3.1.3, Spring v6.0.11
+2025-09-28 21:20:35.681 [main]  INFO traceId= spanId= c.h.p.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-28 21:20:42.046 [main]  INFO traceId= spanId= c.h.p.PaymentServiceApplication - Started PaymentServiceApplication in 7.308 seconds (process running for 7.96)
+2025-09-28 21:21:09.540 [http-nio-9093-exec-1]  INFO traceId=68d998b5cacbc67a402ad8bd8e785427 spanId=402ad8bd8e785427 c.h.p.controller.PaymentController - Start of createPayment
+2025-09-28 21:21:09.826 [http-nio-9093-exec-1]  INFO traceId=68d998b5cacbc67a402ad8bd8e785427 spanId=402ad8bd8e785427 c.h.p.controller.PaymentController - End of createPayment
+2025-09-28 21:21:21.085 [http-nio-9093-exec-3]  INFO traceId=68d998c0d00d7a081ab3c09f308acfa5 spanId=996e19f9843f8358 c.h.p.controller.PaymentController - Start of getPaymentDetailsByStudentId
+2025-09-28 21:21:21.498 [http-nio-9093-exec-3]  INFO traceId=68d998c0d00d7a081ab3c09f308acfa5 spanId=996e19f9843f8358 c.h.p.controller.PaymentController - End of getPaymentDetailsByStudentId
