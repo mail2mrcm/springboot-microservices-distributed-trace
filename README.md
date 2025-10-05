@@ -6,7 +6,7 @@
   - Trace shows latency at each hop.
 - Note - Please refer repo https://github.com/mail2mrcm/springboot-microservices-distributed-trace.git  for  details.
 	
-Integration Micrometer and Zipkin in microservice
+# Integration Micrometer and Zipkin in microservice
 - Micrometer Tracing → collects trace info and enriches logs.
 - Brave Bridge → actual tracing library that integrates with Zipkin.
 - Zipkin Reporter → exports spans to Zipkin over HTTP.
@@ -14,10 +14,10 @@ Integration Micrometer and Zipkin in microservice
 - RestTemplate/WebClient interceptors → propagate context (traceId/spanId) between services.
 
 Step 1 - Download and Run Zipkin JAR
-# download the latest zipkin.jar
+- download the latest zipkin.jar
 curl -sSL https://zipkin.io/quickstart.sh | bash -s
 
-# run zipkin on port 9411 with JMX disabled (to avoid that RMI port conflict)
+- run zipkin on port 9411 with JMX disabled (to avoid that RMI port conflict)
 java -Dcom.sun.management.jmxremote=false -jar zipkin.jar
 
 Note- I have created /Zipkin folder and copied binaries of zipkin into the same for  convenience and directly jar can be executed by navigation /Zipkin
